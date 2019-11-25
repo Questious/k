@@ -1,29 +1,29 @@
-<script  type="text/javascript"  charset="utf-8">  
+<script  type="text/javascript" charset="utf-8">  
 (function(w,d,t,f){  w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']=  
 c=(c  instanceof  Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0];  
 L.async=1;L.src='//feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k;  
 e.parentNode.insertBefore(L,e);  };  })(  window,document,'script','_aqiFeed'  );    
 </script>
 
-<head>
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<title>Xenia air</title><p style="text-align: center;"><iframe style="border: 0px #ffffff none;" src="https://epa.gov/cgi-bin/schoolflagwidgetcurrent.cgi?z=45385&amp;n=Xenia" name="Air" width="220px" height="325px" frameborder="0" marginwidth="0px" marginheight="1px" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p><p style="text-align:center;margin:auto;"<span id="city-aqi-container"></span></p><script type="text/javascript" charset="utf-8">_aqiFeed({  container:"city-aqi-container",  display:"Xenia Air Quality is %aqi",  city:"usa/ohio/springfield-pm"  });</script><link href="./air.css" rel="stylesheet" type="text/css">
-</head>
+<script type="text/javascript" charset="utf-8">
+"use strict";!function(t){window.AVWidget||(window.AVWidget={cache:{}});var e=window.AVWidget.cache;function n(t)
+{return document.getElementById(t.getAttribute("data-target"))}!function(){for(var n=document.getElementsByName("airvisual_widget"),
+i=function(i){var a=n[i],s=a.getAttribute("key");!function r(n,i){if(e[n])
+{if("success"===e[n].status)return i(e[n].data);if("fetching"===e[n].status)
+return setTimeout(function(){return r(n,i)},100)}e[n]={status:"fetching"};
+var a=new XMLHttpRequest;a.open("POST",t+"/api/v2/widget/custom/"+n,!0);
+a.onreadystatechange=function(){var t="";if(4!==a.readyState||200!==a.status)return i(t);try
+{t=JSON.parse(a.responseText),e[n].status="success"}catch(s){e[n].status="failed"}
+e[n].data=t,i(t)};a.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+a.send()}(s,function(t){return function(t,e){if("string"==typeof e)return void(t.innerHTML=e);
+e.html&&(t.innerHTML=e.html);if(e.js){var n=document.createElement("script");n.innerHTML=e.js,
+document.body.appendChild(n)}}(a,t)})},a=0;a<n.length;++a)i(a)}(),window.AVWidget.showDetails=function(t)
+{var e=t.target,i=n(e);if(e&&i){var a=e.getBoundingClientRect(),s=i.getBoundingClientRect(),
+r=Math.max(a.left+a.width/2-s.width-164,0),o=a.top+a.height+10;i.style.left=r+"px",i.style.top=o+"px",
+i.style.display="block"}},window.AVWidget.hideDetails=function(t){var e=n(t.target);
+e&&(e.style.display="none")}}("https://www.airvisual.com");
+</script>
 
-<body class="body">
+<head><title>Xenia air</title><p style="text-align: center;"><iframe style="border: 0px #ffffff none;" src="https://epa.gov/cgi-bin/schoolflagwidgetcurrent.cgi?z=45385&amp;n=Xenia" name="Air" width="220px" height="325px" frameborder="0" marginwidth="0px" marginheight="1px" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p><div style="text-align: center;"> <div name="airvisual_widget" key="ENfD4vTgB4iNfrNpB"></div></div><p style="text-align:center;margin:auto;"<span id="city-aqi-container"></span></p><script type="text/javascript" charset="utf-8">_aqiFeed({  container:"city-aqi-container",  display:"Xenia Air Quality is %aqi",  city:"usa/ohio/springfield-pm"  });</script><link href="./air.css" rel="stylesheet" type="text/css"></head><body class="body">
+
+  
