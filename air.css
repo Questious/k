@@ -4,3 +4,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#footer {
+    position: fixed;
+    bottom: 10;
+    width: 50%;
+}
