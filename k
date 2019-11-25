@@ -1,1 +1,0 @@
-magnet:?xt=urn:btih:af247d3c45af54e239b4dcca405d7156a077a53b&dn=Virtual_Training_Camp_2016-paraZite&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969
